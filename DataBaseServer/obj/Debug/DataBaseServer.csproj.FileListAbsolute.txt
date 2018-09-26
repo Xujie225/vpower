@@ -1,0 +1,8 @@
+H:\FileTool\06_V1.0_VpowerUwF4Client\DataBaseServer\bin\Debug\DataBaseServer.dll
+H:\FileTool\06_V1.0_VpowerUwF4Client\DataBaseServer\bin\Debug\DataBaseServer.pdb
+H:\FileTool\06_V1.0_VpowerUwF4Client\DataBaseServer\bin\Debug\log4net.dll
+H:\FileTool\06_V1.0_VpowerUwF4Client\DataBaseServer\obj\Debug\DataBaseServer.dll
+H:\FileTool\06_V1.0_VpowerUwF4Client\DataBaseServer\obj\Debug\DataBaseServer.pdb
+H:\FileTool\06_V1.0_VpowerUwF4Client\DataBaseServer\bin\Debug\dbMng.prop
+H:\FileTool\06_V1.0_VpowerUwF4Client\DataBaseServer\bin\Debug\Setting.prop
+H:\FileTool\06_V1.0_VpowerUwF4Client\DataBaseServer\obj\Debug\DataBaseServer.csprojResolveAssemblyReference.cache

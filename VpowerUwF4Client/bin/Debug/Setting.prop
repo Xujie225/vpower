@@ -1,0 +1,12 @@
+﻿#Transaction
+machineNo=001012345
+keepDays=20
+#dbConection
+server=10.13.151.32
+userid=sa
+password=glory
+database=SNDBClient
+#cspbc
+cspbcIP=192.168.1.2
+cspbcPort=15000
+tryTimes=3

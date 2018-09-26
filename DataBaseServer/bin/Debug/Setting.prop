@@ -1,0 +1,8 @@
+﻿#Transaction
+machineNo=001012345
+keepDays=20
+#dbConection
+server=192.168.1.1
+userid=sa
+password=glory
+database=SNDBClient
