@@ -1,0 +1,35 @@
+2018-07-25 09:14:03,250 [7168] INFO  VpowerUwF4Client.Program - Program Start...
+2018-07-25 09:14:03,285 [7168] INFO  VpowerUwF4Client.Program - Log File Check...
+2018-07-25 09:14:03,445 [7168] INFO  VpowerUwF4Client.Program - Sno Data Check...
+2018-07-25 09:14:03,863 [7168] INFO  VpowerUwF4Client.Program - Transactions sequence updating...
+2018-07-25 09:14:03,887 [7168] INFO  VpowerUwF4Client.Program - Transactions sequence is 1
+2018-07-25 09:14:03,892 [7168] INFO  VpowerUwF4Client.Program - ServerIp is 0.0.0.0
+2018-07-25 09:14:03,897 [7168] INFO  VpowerUwF4Client.Program - ServerPort is 8000
+
+2018-07-25 09:14:03,902 [7168] INFO  VpowerUwF4Client.Program - CSPBC ServerEnable is False
+2018-07-25 09:15:04,627 [9492] INFO  CommandServer.ClientManager - Start Receive...Step1
+2018-07-25 09:15:04,631 [9480] INFO  VpowerUwF4Client.Program - Client 192.168.1.25:51719 has been Connected. ( 2018-07-25|9:15:04 )
+2018-07-25 09:15:08,549 [9492] INFO  CommandServer.ClientManager - Start Receive...Step2
+2018-07-25 09:15:08,553 [9492] INFO  CommandServer.ClientManager - Start Receive...Step3
+2018-07-25 09:15:20,722 [8492] INFO  CommandServer.ClientManager - Sno Data Check in...
+2018-07-25 09:15:36,440 [9492] INFO  CommandServer.ClientManager - Start Receive...Step1
+2018-07-25 09:15:39,541 [8492] INFO  CommandServer.ClientManager - Sno 100 recieved...
+2018-07-25 09:15:39,594 [MAKING] INFO  FsnCreateServer.NoteInfoMakingFile - $Create()$:  Create File Name is GLRY_GZHM_20180725091539.FSN.
+2018-07-25 09:15:39,647 [8492] INFO  DataBaseServer.SNDBClient - TBL_SERIALNUMBER input data start...
+2018-07-25 09:15:39,659 [8492] INFO  DataBaseServer.SNDBClient - Sno count ：100
+2018-07-25 09:15:39,703 [8492] INFO  DataBaseServer.SNDBClient - TBL_SERIALNUMBER input complete!!
+2018-07-25 09:15:39,706 [8492] INFO  DataBaseServer.SNDBClient - TBL_TRANSACTIONS input start...
+2018-07-25 09:15:39,708 [8492] INFO  DataBaseServer.SNDBClient - Tran count：1
+2018-07-25 09:15:39,716 [8492] INFO  DataBaseServer.SNDBClient - TBL_TRANSACTIONS input complete!!
+2018-07-25 09:15:39,721 [8492] INFO  CommandServer.ClientManager - ★★★★ Run In 35094 ms with 100 ★★★★
+
+2018-07-25 09:15:39,734 [8492] INFO  CommandServer.ClientManager - CSPBC: BussinessType is KA
+2018-07-25 09:15:39,737 [8492] INFO  CommandServer.ClientManager - CSPBC: TryTimes is 0
+2018-07-25 09:15:39,739 [8492] INFO  CommandServer.ClientManager - CSPBC: 100 Sno has been received !
+2018-07-25 09:15:39,742 [8492] INFO  CommandServer.ClientManager - CSPBC: Current Sno is 100!
+2018-07-25 09:15:44,676 [9492] ERROR CommandServer.ClientManager - <Err> at $StartReceive()$ Exception - System.IO.IOException: 転送接続からデータを読み取れません: 接続済みの呼び出し先が一定の時間を過ぎても正しく応答しなかったため、接続できませんでした。または接続済みのホストが応答しなかったため、確立された接続は失敗しました。。 ---> System.Net.Sockets.SocketException: 接続済みの呼び出し先が一定の時間を過ぎても正しく応答しなかったため、接続できませんでした。または接続済みのホストが応答しなかったため、確立された接続は失敗しました。
+   場所 System.Net.Sockets.Socket.Receive(Byte[] buffer, Int32 offset, Int32 size, SocketFlags socketFlags)
+   場所 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   --- 内部例外スタック トレースの終わり ---
+   場所 System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 size)
+   場所 CommandServer.ClientManager.StartReceive(Object sender, DoWorkEventArgs e) 場所 h:\FileTool\06_V1.0_VpowerUwF4Client\CommandServer\ClientManager.cs:行 119.

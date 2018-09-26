@@ -1,0 +1,35 @@
+﻿SNDBClient.Transactions.select =\
+SELECT \
+       TraceNumber \
+      ,TranDate \
+      ,TranTime \
+      ,ClientNumber \
+      ,ClientName \
+      ,TerminalNumber \
+      ,MachineNumber \
+      ,Piece \
+      ,Amount \
+      ,DeclareAmount \
+      ,Result \
+      ,ErrorCode \
+      ,ErrorDetail \
+      ,UpdateDateTime \
+  FROM SNDBClient.dbo.Tbl_Transactions \
+  Where \
+  DATEDIFF(dd,Updatedatetime,GETDATE())=0 \
+  AND MachineNumber = {machineNumber}
+
+SNDBClient.Transactions.delete = \
+DELETE \
+FROM \
+	SNDBClient.dbo.Tbl_Transactions \
+WHERE \
+	DATEDIFF(dd,Updatedatetime,getdate()) > {keepDays}
+
+
+SNDBClient.SerialNumber.delete = \
+DELETE \
+FROM \
+	SNDBClient.dbo.Tbl_SerialNumber \
+WHERE \
+	DATEDIFF(dd,Updatedatetime,getdate()) > {keepDays}
